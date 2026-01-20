@@ -1,3 +1,1 @@
-R code for using litsearchr to maximise search strategy for global synthesis of open tech in insect monitoring
-
-[Tutorial for using litsearchr](https://luketudge.github.io/litsearchr-tutorial/litsearchr_tutorial.html)
+R code for using [litsearchr](https://elizagrames.github.io/litsearchr/) to maximise search strategy for a global synthesis on open technologies for insect monitoring. Check out a useful tutorial on how to use it [here](https://luketudge.github.io/litsearchr-tutorial/litsearchr_tutorial.html).

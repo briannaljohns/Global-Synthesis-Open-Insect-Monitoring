@@ -14,7 +14,7 @@ results <- import_results(file="keypapers.ris")
 # double check that .ris file loaded correctly
 # nrow(results)
 # colnames(results)
-# results[1, "keywords"]
+ results[1:7, "keywords"]
 
 # Extract keywords
 keywords <- extract_terms(keywords = results[, "keywords"], method = "tagged", min_n = 1)
