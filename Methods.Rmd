@@ -18,6 +18,6 @@ all_terms
 
 ## Keywords for Global Synthesis
 
-The list of keywords was refined based on input from collaborators working in insect conservation and with open source technologies, in addition to the initial analysis of common keywords in key papers. You can view the keywords and Web of Science query in the Keywords.txt document. Alternatively, you can use this query link from Web of Science [[LINK]](https://www.webofscience.com/wos/woscc/summary/cf141034-9df2-4a8d-969c-cce4a9fb8879-0199ca490e/relevance/1)\
+The list of keywords was refined based on input from collaborators working in insect conservation and with open source technologies, in addition to the initial analysis of common keywords in key papers. You can view the keywords and Web of Science query in the Keywords.txt document. Alternatively, you can use this query link from Web of Science [[LINK]](https://www.webofscience.com/wos/woscc/summary/e3bf20d3-7540-4fca-ad7d-aa964498af5e-019a09dcb5/relevance/1)\
 \
-The keyword search resulted in 12,437 results from the Web of Science Core Collection. The search did not include one key paper: **Towards scalable insect monitoring: Ultra-lightweight CNNs as on-device triggers for insect camera traps**\
+The keyword search resulted in 9,222 results from the Web of Science Core Collection. The search did not include one key paper: **Towards scalable insect monitoring: Ultra-lightweight CNNs as on-device triggers for insect camera traps**\
