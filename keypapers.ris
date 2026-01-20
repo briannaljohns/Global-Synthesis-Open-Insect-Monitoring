@@ -1,0 +1,349 @@
+TY  - JOUR
+AU  - Gardiner, RJ
+AU  - Rowlands, S
+AU  - Simmons, BI
+TI  - Towards scalable insect monitoring: Ultra-lightweight CNNs as on-device triggers for insect camera traps
+T2  - METHODS IN ECOLOGY AND EVOLUTION
+LA  - English
+KW  - artificial intelligence
+KW  - biodiversity monitoring
+KW  - camera trap
+KW  - conservation technology
+KW  - edge computing
+KW  - insect camera trap
+KW  - insects
+KW  - TinyML
+KW  - TERRESTRIAL
+KW  - NETWORKS
+KW  - IMAGES
+AB  - Camera traps, combined with AI, have emerged to achieve automated, scalable biodiversity monitoring. However, passive infrared (PIR) sensors that typically trigger camera traps are poorly suited for detecting small, fast-moving ectotherms such as insects. Insects comprise over half of all animal species and are key components of ecosystems and agriculture. The need for an appropriate and scalable insect camera trap is critical in the wake of concerning reports of declines in insect populations. This study proposes an alternative to the PIR trigger: ultra-lightweight convolutional neural networks running on low-powered hardware to detect insects in a continuous stream of captured images. We train such models to distinguish insect images from backgrounds. Our design achieves zero latency between trigger and image capture. Our models are rigorously tested and achieve high accuracy ranging from 91.8% to 96.4% AUROC on test data and 58.8% to 87.2% AUROC on field data from distributions unseen during training. The high specificity of our models ensures minimal saving of false positive images, maximising deployment storage efficiency. High recall scores indicate a minimal false negative rate, maximising insect detection. Analysis using saliency maps shows the learned representation of our models to be robust, with low reliance on spurious background features. Our method is also shown to operate deployed on off-the-shelf, low-powered microcontroller units, consuming a maximum power draw of less than 300 mW. This paves the way for scalable systems with longer deployment times. Overall, we fully define the properties of a successful trigger for camera traps and show how lightweight AI models, made bespoke for efficient hardware, can be realised with a specific focus on insect ectotherms. We provide these models to the community alongside a complete codebase for future modifications, and we demonstrate how they can be deployed on an example ESP32-S3 microcontroller platform. This step potentiates a major advancement for ectotherm camera traps and insect monitoring.
+AD  - Univ Exeter, UKRI Ctr Doctoral Training Environm Intelligence, Exeter, Devon, England
+AD  - Univ Exeter, Dept Comp Sci, Exeter, Devon, England
+AD  - Univ Exeter, Ctr Ecol & Conservat, Cornwall, England
+C3  - University of Exeter
+C3  - University of Exeter
+C3  - University of Exeter
+FU  - Engineering and Physical Sciences Research Council [EP/S022074/1]; EPSRC; EU COST Action
+FX  - This project was funded via a doctoral training grant awarded as part of the UKRI AI Centre for Doctoral Training in Environmental Intelligence (UKRI grant number EP/S022074/1). The computational resources used to train our models were provided by the Hartree JADE2 HPC facility funded through EPSRC. We also acknowledge the EU COST Action, CA22129-InsectAI, which has facilitated many useful discussions through its network.
+PU  - WILEY
+PI  - HOBOKEN
+PA  - 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN  - 2041-210X
+SN  - 2041-2096
+J9  - METHODS ECOL EVOL
+JI  - Methods Ecol. Evol.
+DA  - 2025 JUL 3
+PY  - 2025
+DO  - 10.1111/2041-210X.70098
+C6  - JUL 2025
+WE  - Science Citation Index Expanded (SCI-EXPANDED)
+AN  - WOS:001521902400001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  50
+ER  -
+
+TY  - JOUR
+AU  - Bennett, D
+AU  - Nissen, H
+AU  - Maschke, MA
+AU  - Reck, H
+TI  - Recent technological developments allow for passive acoustic monitoring of Orthoptera (grasshoppers and crickets) in research and conservation across a broad range of temporal and spatial scales
+T2  - BASIC AND APPLIED ECOLOGY
+LA  - English
+KW  - Audiomoth
+KW  - Automatic bioacoustics
+KW  - Classification
+KW  - Batlogger
+KW  - Convolutional neural network
+KW  - OrthopterOSS
+KW  - Machine learning
+AB  - Passive acoustic monitoring (PAM) uses stationary recorders to detect wildlife in field conditions. The method has long been valuable for surveying certain species groups, especially bats. However, PAM has been limited by resource costs and availability of automatic classifiers to assist data analysis. With recent developments of inexpensive devices, such as Audiomoth, landscape-scale monitoring has become more feasible. This also opens possibilities to apply PAM to species groups that traditionally have been studied via expert-based, labourintensive monitoring, such as transect surveys. Utilizing recordings of Orthoptera from online databases, specialists and from our own recordings, we built a machine-learning classifier to automatically identify 17 Orthoptera species, OrthopterOSS. Assessment included the comparison of PAM to traditional transects surveys. We also compared the performance of inexpensive Audiomoth with classic Batlogger recorders for surveying Orthoptera species with PAM, at eight sites, where we also tested whether adding two additional Audiomoths in 50 m distances from the initial device towards the edge of the wildflower area would increase species detections. We also assessed how the number of species detected changed over time. In total, we detected 20 Orthoptera species during the study. Our new classifier achieved a true positive rate of 86.4 % validated against independent test data. PAM outperformed traditional sweep netting transects overall, although differences were not statistically significant. There was no difference in species composition detected by Audiomoth v1.2 or Batlogger, the species composition detected by three Audiomoths compared to one Audiomoth and no difference between hedgerow and centre species communities. There was also no significant relationship between Orthoptera richness and the percentage of permanent semi-natural habitat in the nearby landscape. Relatively inexpensive equipment allows for efficient PAM of Orthoptera. Our OrthopterOSS classifier could represent a useful tool for future PAM research in northern Europe, and serve as an extendable basis for studies elsewhere. If the species predictions are verified by an expert, the classifier could assist monitoring and conservation of Orthoptera at broad temporal and spatial scales.
+AD  - Univ Kiel, Inst Nat Resource Conservat, Landscape Ecol, Olshausenstr 75, D-24118 Kiel, Germany
+AD  - Brandenburg Tech Univ Cottbus Senftenburg, Fachgebiet Umweltplanung, Erich-Weinert-Str 1, D-03046 Cottbus, Germany
+C3  - University of Kiel
+FU  - Bundesamt fur Naturschutz (BfN) [3520840700 B]; Deutsche Gesellschaft fur Orthopterologie (DGFO)
+FX  - We thank Klaus Riede (University of Alicante) for his invaluable advice in planning this work. We thank Ode Baudewijn and Ian Middleton for their advice and for providing us with example recordings and Dan Stowell for his advice on the construction of convolutional neural networks. We are extremely grateful to Dr. Lapp for his assistance with OpenSoundscape. We also thank the farmers and landowners who allowed us to deploy our devices on their land. We thank Katharina Grosser for help with the DGFO funding application. We are grateful to the student assistants Dora Lohse, Lara Niermann, Linus Milewski and Friederike von Zastrow for their assistance in the field over the two years of field work. We thank the two anonymous reviewers and the guess editor whose valuable comments helped to improve the manuscript. The study was funded by Bundesamt fur Naturschutz (BfN; 3520840700 B) and Deutsche Gesellschaft fur Orthopterologie (DGFO) .
+PU  - ELSEVIER GMBH
+PI  - MUNICH
+PA  - HACKERBRUCKE 6, 80335 MUNICH, GERMANY
+SN  - 1439-1791
+SN  - 1618-0089
+J9  - BASIC APPL ECOL
+JI  - Basic Appl. Ecol.
+DA  - MAY
+PY  - 2025
+VL  - 84
+SP  - 147
+EP  - 157
+DO  - 10.1016/j.baae.2025.03.004
+C6  - MAR 2025
+WE  - Science Citation Index Expanded (SCI-EXPANDED)
+AN  - WOS:001460369500001
+N1  - Times Cited in Web of Science Core Collection:  2
+Total Times Cited:  2
+Cited Reference Count:  58
+ER  -
+
+TY  - JOUR
+AU  - Keasar, T
+AU  - Yair, M
+AU  - Gottlieb, D
+AU  - Cabra-Leykin, L
+AU  - Keasar, C
+TI  - STARdbi: A pipeline and database for insect monitoring based on automated image analysis
+T2  - ECOLOGICAL INFORMATICS
+LA  - English
+KW  - Classification
+KW  - High-throughput screening
+KW  - Insect monitoring
+KW  - Machine learning
+KW  - Object detection
+KW  - Sticky trap
+AB  - Insects are highly abundant and diverse, and play major roles in ecosystem functions. Monitoring of insect populations is key to their sustainable management. However, the labor and expertise needed to identify insects, and the challenges of archiving the wealth of data collected in monitoring programs, often limit these efforts. We describe a pipeline to reduce the barriers associated with curating and mining big data of insect biodiversity. The pipeline, STARdbi, includes capturing flying insects with sticky traps, scanning the traps, storing the trap-images in a public database with a web-based interface, and applying machine learning models to extract information from the images. To illustrate the insights that can be gained from STARdbi, we describe two case studies. One of them involves monitoring of circadian activity patterns of grain pests and of their natural enemies, and the other compares insect abundance, biomass and size distributions between agricultural and semi-natural habitats. We invite the community of insect ecologists to contribute to the STARdbi database, and to use its image analysis tools to address diverse ecological and evolutionary questions.
+AD  - Univ Haifa, Dept Biol, IL-36006 Tivon, Israel
+AD  - Harishonim 17, IL-4069600 Ein Vered, Israel
+AD  - Inst Postharvest & Food Sci, Volcani Ctr, Dept Food Sci, ARO, IL-7528809 Rishon Leziyyon, Israel
+AD  - Univ Haifa, Dept Evolutionary & Environm Biol, IL-3498838 Haifa, Israel
+AD  - Ben Gurion Univ Negev, Dept Comp Sci, IL-84105 Beer Sheva, Israel
+C3  - University of Haifa
+C3  - Volcani Institute of Agricultural Research
+C3  - University of Haifa
+C3  - Ben-Gurion University of the Negev
+FU  - Data Science Research Center, University of Haifa; Israeli Council for Higher Education (CHE) via the Data Science Research Center at Ben-Gurion University of the Negev; Ministry of Science and Technology's India-Israel collaboration program [6294]; ICA foundation; Israel Ministry of Energy and Infrastructure
+FX  - The computational parts of this work were supported by the Data Science Research Center, University of Haifa, by the Israeli Council for Higher Education (CHE) via the Data Science Research Center at Ben-Gurion University of the Negev, and by the Ministry of Science and Technology's India-Israel collaboration program grant number 6294. The computational infrastructure is provided by the Department of Computer Science, Ben Gurion University. Insect sampling was supported by the ICA foundation and by the Israel Ministry of Energy and Infrastructure.
+PU  - ELSEVIER
+PI  - AMSTERDAM
+PA  - RADARWEG 29, 1043 NX AMSTERDAM, NETHERLANDS
+SN  - 1574-9541
+SN  - 1878-0512
+J9  - ECOL INFORM
+JI  - Ecol. Inform.
+DA  - MAY
+PY  - 2024
+VL  - 80
+C7  - 102521
+DO  - 10.1016/j.ecoinf.2024.102521
+C6  - FEB 2024
+WE  - Science Citation Index Expanded (SCI-EXPANDED)
+AN  - WOS:001188898100001
+N1  - Times Cited in Web of Science Core Collection:  4
+Total Times Cited:  4
+Cited Reference Count:  33
+ER  -
+
+TY  - JOUR
+AU  - Möglich, JM
+AU  - Lampe, P
+AU  - Fickus, M
+AU  - Younis, S
+AU  - Gottwald, J
+AU  - Nauss, T
+AU  - Brandl, R
+AU  - Brändle, M
+AU  - Friess, N
+AU  - Freisleben, B
+AU  - Heidrich, L
+TI  - Towards reliable estimates of abundance trends using automated non-lethal moth traps
+T2  - INSECT CONSERVATION AND DIVERSITY
+LA  - English
+KW  - automated moth light trap
+KW  - biodiversity monitoring
+KW  - camera trap
+KW  - fieldwork applicability
+KW  - insects
+KW  - moth abundance
+KW  - INSECT DECLINES
+KW  - LEPIDOPTERA
+KW  - CADDISFLIES
+KW  - DIVERSITY
+KW  - FOREST
+KW  - BIAS
+KW  - TERM
+AB  - 1. Monitoring insect abundance or species richness at high spatial and temporal resolution is difficult due to personnel, maintenance, and post-processing costs as well as ethical considerations. Non-invasive automated insect monitoring systems could provide a solution to address these constraints. However, every new insect monitoring design needs to be evaluated with respect to reliability and bias based on comparisons with conventional methods.
+   2. In this study, we evaluate the effectiveness of an automated moth trap (AMT), built from off-the- shelf- hardware, in capturing declines in moth abundance, by comparing it to a conventional, lethal trap. Both trap types were operated five times on 16 plots from the beginning of July 2021 to the end of August 2021.
+   3. On average AMTs recorded fewer individuals than conventional traps. However, both trap types depicted the same seasonal decline of approximately 3% per day, which corresponded to a total difference of similar to 85% over the sampling period. Given our sample size, both trap types had the same limitations in their reliability to detect smaller changes in abundance trends.
+   4. This first proof of concept demonstrated that AMTs depict large magnitude events such as phenological patterns just as well as conventional, lethal traps. Therefore, AMTs are a promising tool for future autonomous and non-lethal monitoring, which paves the way for high temporal coverage and resolution in insect monitoring. However, this initial quantitative field test revealed that its long-term applicability must be preceded by several adjustments to the image quality, power supply and to data transfer.
+AD  - Philipps Univ Marburg, Dept Biol, Marburg, Germany
+AD  - Philipps Univ Marburg, Dept Math & Comp Sci, Marburg, Germany
+AD  - Philipps Univ Marburg, Dept Geog, Marburg, Germany
+C3  - Philipps University Marburg
+C3  - Philipps University Marburg
+C3  - Philipps University Marburg
+FU  - Hessisches Ministerium fur Wissenschaft und Kunst
+FX  - Hessisches Ministerium fur Wissenschaft und Kunst
+PU  - WILEY
+PI  - HOBOKEN
+PA  - 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN  - 1752-458X
+SN  - 1752-4598
+J9  - INSECT CONSERV DIVER
+JI  - Insect. Conserv. Divers.
+DA  - SEP
+PY  - 2023
+VL  - 16
+IS  - 5
+SP  - 539
+EP  - 549
+DO  - 10.1111/icad.12662
+C6  - JUN 2023
+WE  - Science Citation Index Expanded (SCI-EXPANDED)
+AN  - WOS:001019492700001
+N1  - Times Cited in Web of Science Core Collection:  6
+Total Times Cited:  7
+Cited Reference Count:  61
+ER  -
+
+TY  - JOUR
+AU  - Knauer, AC
+AU  - Gallmann, J
+AU  - Albrecht, M
+TI  - Bee Tracker-an open-source machine learning-based video analysis software for the assessment of nesting and foraging performance of cavity-nesting solitary bees
+T2  - ECOLOGY AND EVOLUTION
+LA  - English
+KW  - behavior
+KW  - fitness
+KW  - Osmia bicornis
+KW  - risk assessment
+KW  - sublethal effects
+KW  - IMPACTS
+KW  - PESTICIDE
+KW  - EXPOSURE
+AB  - The foraging and nesting performance of bees can provide important information on bee health and is of interest for risk and impact assessment of environmental stressors. While radiofrequency identification (RFID) technology is an efficient tool increasingly used for the collection of behavioral data in social bee species such as honeybees, behavioral studies on solitary bees still largely depend on direct observations, which is very time-consuming. Here, we present a novel automated methodological approach of individually and simultaneously tracking and analyzing foraging and nesting behavior of numerous cavity-nesting solitary bees. The approach consists of monitoring nesting units by video recording and automated analysis of videos by machine learning-based software. This Bee Tracker software consists of four trained deep learning networks to detect bees that enter or leave their nest and to recognize individual IDs on the bees' thorax and the IDs of their nests according to their positions in the nesting unit. The software is able to identify each nest of each individual nesting bee, which permits to measure individual-based measures of reproductive success. Moreover, the software quantifies the number of cavities a female enters until it finds its nest as a proxy of nest recognition, and it provides information on the number and duration of foraging trips. By training the software on 8 videos recording 24 nesting females per video, the software achieved a precision of 96% correct measurements of these parameters. The software could be adapted to various experimental setups by training it according to a set of videos. The presented method allows to efficiently collect large amounts of data on cavity-nesting solitary bee species and represents a promising new tool for the monitoring and assessment of behavior and reproductive success under laboratory, semi-field, and field conditions.
+AD  - Agroscope, Agroecol & Environm, Reckenholzstr 191, CH-8046 Zurich, Switzerland
+AD  - Ubique Innovat AG, Zurich, Switzerland
+C3  - Swiss Federal Research Station Agroscope
+FU  - European Union's Horizon 2020 research and innovation programme [773921]
+FX  - European Union's Horizon 2020 research and innovation programme, Grant/Award Number: 773921
+PU  - WILEY
+PI  - HOBOKEN
+PA  - 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN  - 2045-7758
+J9  - ECOL EVOL
+JI  - Ecol. Evol.
+DA  - MAR
+PY  - 2022
+VL  - 12
+IS  - 3
+C7  - e8575
+DO  - 10.1002/ece3.8575
+WE  - Science Citation Index Expanded (SCI-EXPANDED)
+AN  - WOS:000775192200011
+N1  - Times Cited in Web of Science Core Collection:  10
+Total Times Cited:  11
+Cited Reference Count:  48
+ER  -
+
+TY  - JOUR
+AU  - Droissart, V
+AU  - Azandi, L
+AU  - Onguene, ER
+AU  - Savignac, M
+AU  - Smith, TB
+AU  - Deblauwe, V
+TI  - PICT: A low-cost, modular, open-source camera trap system to study plant-insect interactions
+T2  - METHODS IN ECOLOGY AND EVOLUTION
+LA  - English
+KW  - behavioural ecology
+KW  - digital video recording
+KW  - DIY camera trap
+KW  - e-ecology
+KW  - low-cost technology
+KW  - plant-insect interaction
+KW  - pollination biology
+KW  - Raspberry Pi
+KW  - PHOTOTAXIS
+KW  - EVOLUTION
+KW  - LIGHT
+KW  - POLLINATORS
+KW  - ECOLOGY
+KW  - ORCHID
+AB  - 1. Commercial camera traps (CTs) commonly used in wildlife studies have several technical limitations that restrict their scope of application. They are not easily customizable, unit prices sharply increase with image quality and importantly, they are not designed to record the activity of ectotherms such as insects. Those developed for the study of plant-insect interactions are yet to be widely adopted as they rely on expensive and heavy equipment.
+   2. We developed PICT (plant-insect interactions camera trap), an inexpensive (<100 USD) do-it-yourself CT system based on a Raspberry Pi Zero computer designed to continuously film animal activity. The system is particularly well suited for the study of pollination, insect behaviour and predator-prey interactions. The focus distance can be manually adjusted to under 5 cm. In low light conditions, a near-infrared light automatically illuminates the subject. Frame rate, resolution and video compression levels can be set by the user. The system can be remotely controlled using either a smartphone, tablet or laptop via the onboard Wi-Fi. PICT can record up to 72-hr day and night videos at >720p resolution with a 110-Wh power bank (30,000 mAh). Its ultra-portable (<1 kg) waterproof design and modular architecture is practical in diverse field settings. We provide an illustrated technical guide detailing the steps involved in building and operating a PICT and for video post-processing.
+   3. We successfully field-tested PICT in a Central African rainforest in two contrasting research settings: an insect pollinator survey in the canopy of the African ebony Diospyros crassiflora and the observation of rare pollination events of an epiphytic orchid Cyrtorchis letouzeyi.
+   4. PICT overcomes many of the limitations commonly associated with CT systems designed to monitor ectotherms. Increased portability and image quality at lower costs allow for large-scale deployment and the acquisition of novel insights into the reproductive biology of plants and their interactions with difficult to observe animals.
+AD  - Univ Montpellier, AMAP Lab, IRD, CNRS,INRAE,CIRAD, Montpellier, France
+AD  - Univ Libre Bruxelles, Herbarium & Bibliotheque Bot Africaine, Brussels, Belgium
+AD  - Univ Yaounde I, Higher Teachers Training Coll, Plant Systemat & Ecol Lab, Yaounde, Cameroon
+AD  - Int Inst Trop Agr, Yaounde, Cameroon
+AD  - Natl Forestry Sch Mbalmayo, Mbalmayo, Cameroon
+AD  - Univ Calif Los Angeles, Ctr Trop Res, Inst Environm & Sustainabil, Los Angeles, CA 90095 USA
+C3  - CIRAD
+C3  - Centre National de la Recherche Scientifique (CNRS)
+C3  - Institut de Recherche pour le Developpement (IRD)
+C3  - Universite de Montpellier
+C3  - INRAE
+C3  - Universite Libre de Bruxelles
+C3  - University of Yaounde I
+C3  - University of California System
+C3  - University of California Los Angeles
+FU  - Fondation pour Favoriser la Recherche sur la Biodiversite en Afrique; Leonardo Dicaprio Foundation; American Orchid Society; Aspire Grant Program
+FX  - Bob Taylor; Fondation pour Favoriser la Recherche sur la Biodiversite en Afrique; Leonardo Dicaprio Foundation; American Orchid Society; Aspire Grant Program
+PU  - WILEY
+PI  - HOBOKEN
+PA  - 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN  - 2041-210X
+SN  - 2041-2096
+J9  - METHODS ECOL EVOL
+JI  - Methods Ecol. Evol.
+DA  - AUG
+PY  - 2021
+VL  - 12
+IS  - 8
+SP  - 1389
+EP  - 1396
+DO  - 10.1111/2041-210X.13618
+C6  - MAY 2021
+WE  - Science Citation Index Expanded (SCI-EXPANDED)
+AN  - WOS:000649477900001
+N1  - Times Cited in Web of Science Core Collection:  59
+Total Times Cited:  61
+Cited Reference Count:  40
+ER  -
+
+TY  - JOUR
+AU  - Bjerge, K
+AU  - Nielsen, JB
+AU  - Sepstrup, MV
+AU  - Helsing-Nielsen, F
+AU  - Hoye, TT
+TI  - An Automated Light Trap to Monitor Moths (Lepidoptera) Using Computer Vision-Based Tracking and Deep Learning
+T2  - SENSORS
+LA  - English
+KW  - biodiversity
+KW  - CNN
+KW  - computer vision
+KW  - deep learning
+KW  - insects
+KW  - light trap
+KW  - moth
+KW  - tracking
+AB  - Insect monitoring methods are typically very time-consuming and involve substantial investment in species identification following manual trapping in the field. Insect traps are often only serviced weekly, resulting in low temporal resolution of the monitoring data, which hampers the ecological interpretation. This paper presents a portable computer vision system capable of attracting and detecting live insects. More specifically, the paper proposes detection and classification of species by recording images of live individuals attracted to a light trap. An Automated Moth Trap (AMT) with multiple light sources and a camera was designed to attract and monitor live insects during twilight and night hours. A computer vision algorithm referred to as Moth Classification and Counting (MCC), based on deep learning analysis of the captured images, tracked and counted the number of insects and identified moth species. Observations over 48 nights resulted in the capture of more than 250,000 images with an average of 5675 images per night. A customized convolutional neural network was trained on 2000 labeled images of live moths represented by eight different classes, achieving a high validation F1-score of 0.93. The algorithm measured an average classification and tracking F1-score of 0.71 and a tracking detection rate of 0.79. Overall, the proposed computer vision system and algorithm showed promising results as a low-cost solution for non-destructive and automatic monitoring of moths.
+AD  - Aarhus Univ, Sch Engn, Finlandsgade 22, DK-8200 Aarhus N, Denmark
+AD  - NaturConsult, Skraenten 5, DK-95208 Skorping, Denmark
+AD  - Aarhus Univ, Dept Biosci, Grenavej 14, DK-8410 Ronde, Denmark
+AD  - Aarhus Univ, Arctic Res Ctr, Grenavej 14, DK-8410 Ronde, Denmark
+C3  - Aarhus University
+C3  - Aarhus University
+C3  - Aarhus University
+FU  - Danish 15; Juni Fonden [2019-N-23]
+FX  - This research was funded by Danish 15. Juni Fonden grant number 2019-N-23.
+PU  - MDPI
+PI  - BASEL
+PA  - MDPI AG, Grosspeteranlage 5, CH-4052 BASEL, SWITZERLAND
+SN  - 1424-8220
+J9  - SENSORS-BASEL
+JI  - Sensors
+DA  - JAN
+PY  - 2021
+VL  - 21
+IS  - 2
+C7  - 343
+DO  - 10.3390/s21020343
+WE  - Science Citation Index Expanded (SCI-EXPANDED)
+AN  - WOS:000611725000001
+N1  - Times Cited in Web of Science Core Collection:  77
+Total Times Cited:  84
+Cited Reference Count:  42
+ER  -
+
