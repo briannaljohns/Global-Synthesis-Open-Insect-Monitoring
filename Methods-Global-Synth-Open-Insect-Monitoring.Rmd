@@ -6,28 +6,12 @@ date: "2026-01-20"
 
 ## Key Papers
 
-Created marked list of 7 key papers on open source insect monitoring technologies on Web of Science then exported this list to a RIS file (as full records). These papers act as an “anchor” to the global synthesis, and should appear in the results of a keyword search. If they don’t appear, the keywords need to be reconfigured. RIS file saved as keypapers.ris. Use KeyPaperOverview.R to get info on these papers (titles, abstract, keywords, etc.)
+Created marked list of 7 key papers on open source insect monitoring technologies on Web of Science then exported this list to a RIS file (as full records). These papers act as an “anchor” to the global synthesis, and should appear in the results of a keyword search. If they don’t appear, the keywords need to be reconfigured. RIS file saved as keypapers.ris. Use KeyPaperOverview.R to get info on these papers. I ran the script to see common keywords associated with these articles to refine my search keywords
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r}
+source("KeyPaperOverview.R")
+all_terms <- unique(c(keywords, title_terms, abstract))
+all_terms
 ```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+## Keywords for Global Synthesis
