@@ -8,7 +8,7 @@ date: "2026-01-20"
 
 Created a marked list of 7 key papers on open source insect monitoring technologies on Web of Science then exported this list as a RIS file (as full records). These papers act as an “anchor” to the global synthesis, and should appear in the results of any keyword search that is done. If they don’t appear, the keywords need to be reconfigured. RIS file saved as keypapers.ris.
 
-I also used KeyPaperOverview.R to extract information on these papers. I ran the script to analyse shared words that were used as keywords or in the title or abstract of the article. The resulting list was used to refine my search keywords.
+I also used KeyPaperOverview.R to extract information on these papers. I ran the script to analyse shared words that were used as keywords or in the title or abstract of the article. The resulting list was used to refine my search keywords. Note: This is not a systematic naive search, just a quick glance at commonalities between key papers I have identified. For more information on how to conduct a proper naive search using litsearchr, check out [this tutorial](https://luketudge.github.io/litsearchr-tutorial/litsearchr_tutorial.html).
 
 ```{r}
 source("KeyPaperOverview.R")
@@ -18,6 +18,6 @@ all_terms
 
 ## Keywords for Global Synthesis
 
-The list of keywords was refined based on input from collaborators working in insect conservation and with open source technologies, in addition to the initial analysis of common keywords in key papers. You can view the keywords and Web of Science query in the Keywords.txt document. Alternatively, you can use this query link from Web of Science [[LINK]](https://www.webofscience.com/wos/woscc/summary/e3bf20d3-7540-4fca-ad7d-aa964498af5e-019a09dcb5/relevance/1)\
+The list of keywords was refined based on input from collaborators working in insect conservation and with open source technologies, in addition to the initial analysis of common keywords in key papers. You can view the keywords and Web of Science query in the Keywords.txt document. Alternatively, you can use this query link from Web of Science [[LINK](https://www.webofscience.com/wos/woscc/summary/0fccfd81-85c2-4f57-8391-31903b3c98c8-019a18e63a/relevance/1)]\
 \
-The keyword search resulted in 9,222 results from the Web of Science Core Collection. The search did not include one key paper: **Towards scalable insect monitoring: Ultra-lightweight CNNs as on-device triggers for insect camera traps**\
+The keyword search resulted in 5,120 results from the Web of Science Core Collection. The search did not include one key paper: **Towards scalable insect monitoring: Ultra-lightweight CNNs as on-device triggers for insect camera traps**\
