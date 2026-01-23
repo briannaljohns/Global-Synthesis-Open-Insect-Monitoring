@@ -21,3 +21,5 @@ all_terms
 The list of keywords was refined based on input from collaborators working in insect conservation and with open source technologies, in addition to the initial analysis of common keywords in key papers. You can view the keywords and Web of Science query in the Keywords.txt document. Alternatively, you can use this query link from Web of Science [[LINK](https://www.webofscience.com/wos/woscc/summary/0fccfd81-85c2-4f57-8391-31903b3c98c8-019a18e63a/relevance/1)]\
 \
 The keyword search resulted in 5,105 results from the Web of Science Core Collection. The search did not include one key paper: **Towards scalable insect monitoring: Ultra-lightweight CNNs as on-device triggers for insect camera traps**\
+
+I then exported these 5,105 papers as RIS files (contents include Author, Title, Source, Abstract) and uploaded them to Rayyan for screening. 
